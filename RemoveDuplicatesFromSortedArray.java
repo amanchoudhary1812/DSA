@@ -17,7 +17,7 @@ public class RemoveDuplicatesFromSortedArray {
         RemoveDuplicatesFromSortedArray solution = new RemoveDuplicatesFromSortedArray();
         
         // Example input array
-        int[] nums = {1, 1, 2, 2, 3, 4, 4, 5, 5}; 
+        int[] nums = {1, 1, 2, 2, 3, 4, 4, 5, 5, 6}; 
         
         // Calling the function
         int newLength = solution.removeDuplicates(nums);

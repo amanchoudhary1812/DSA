@@ -40,5 +40,6 @@ public class SearchInsertPosition {
         System.out.println("The target should be at index: " + position);
 
         scanner.close();
+        
     }
 }

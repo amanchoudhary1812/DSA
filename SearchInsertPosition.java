@@ -41,4 +41,5 @@ public class SearchInsertPosition {
 
         scanner.close();
     }
+    
 }

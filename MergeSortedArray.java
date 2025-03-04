@@ -1,7 +1,8 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class MergeSortedArray {
+public class MergeSortedArray 
+{
     public static void merge(int[] nums1, int m, int[] nums2, int n) {
         int i = m - 1;     // Index for the last element in nums1's initial segment
         int j = n - 1;     // Index for the last element in nums2

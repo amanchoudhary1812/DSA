@@ -23,7 +23,7 @@ public class MergeSortedArray {
         int size1 = scanner.nextInt();
         int[] nums1 = new int[size1];
         
-        System.out.print("Enter the number of initialized elements in  nums1: ");
+        System.out.print("Enter the number of initialized elements in nums1: ");
         int m = scanner.nextInt();
         System.out.println("Enter " + m + " elements of nums1: ");
         for (int i = 0; i < m; i++) {

@@ -46,4 +46,3 @@ public class MergeSortedArray {
         scanner.close();
     }
 }
-

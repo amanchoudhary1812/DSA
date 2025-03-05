@@ -37,6 +37,7 @@ public class SortedArrayToBST {
         System.out.print(root.val + " ");
         preOrder(root.left);
         preOrder(root.right);
+        
     }
 
     public static void main(String[] args) {

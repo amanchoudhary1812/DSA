@@ -58,5 +58,4 @@ public class SortedArrayToBST {
         System.out.println("Preorder traversal of the constructed BST:");
         preOrder(root);
     }
-    
 }

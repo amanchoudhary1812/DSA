@@ -19,6 +19,7 @@ public class PascalTriangle {
 
             triangle.add(row);
         }
+        
         return triangle;
     }
 

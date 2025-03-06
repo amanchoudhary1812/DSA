@@ -7,6 +7,7 @@ public class PascalTriangle {
         for (int i = 0; i < numRows; i++) {
             List<Integer> row = new ArrayList<>(i + 1);
             row.add(1); // First element is always 1
+            
 
             for (int j = 1; j < i; j++) {
                 int sum = triangle.get(i - 1).get(j - 1) + triangle.get(i - 1).get(j);

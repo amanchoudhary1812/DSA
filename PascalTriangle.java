@@ -35,5 +35,4 @@ public class PascalTriangle {
             System.out.println(row);
         }
     }
-    
 }

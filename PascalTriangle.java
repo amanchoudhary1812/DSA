@@ -1,6 +1,7 @@
 import java.util.*;
 
-public class PascalTriangle {
+public class PascalTriangle 
+{
     public static List<List<Integer>> generate(int numRows) {
         List<List<Integer>> triangle = new ArrayList<>(numRows);
 

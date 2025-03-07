@@ -28,4 +28,5 @@ public class MajorityElement {
         System.out.println("Majority Element: " + majorityElement(nums));
         scanner.close();
     }
+    
 }

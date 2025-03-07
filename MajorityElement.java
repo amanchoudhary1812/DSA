@@ -14,6 +14,7 @@ public class MajorityElement {
         return candidate;
     }
 
+    
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the number of elements: ");

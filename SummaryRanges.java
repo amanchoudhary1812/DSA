@@ -23,7 +23,6 @@ public class SummaryRanges {
             start = end + 1;
         }
         return ranges;
-        
     }
 
     public static void main(String[] args) {

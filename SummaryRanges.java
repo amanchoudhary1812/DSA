@@ -12,7 +12,8 @@ public class SummaryRanges {
         int start = 0;
         while (start < nums.length) {
             int end = start;
-            while (end + 1 < nums.length && nums[end + 1] == nums[end] + 1) {
+            while (end + 1 < nums.length && nums[end + 1] == nums[end] + 1) 
+            {
                 end++;
             }
             if (end == start) {

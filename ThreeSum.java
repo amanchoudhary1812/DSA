@@ -20,7 +20,8 @@ public class ThreeSum {
                     while (left < right && nums[right] == nums[right - 1]) right--;
                     left++;
                     right--;
-                } else if (sum < 0) {
+                } else if (sum < 0) 
+                {
                     left++;
                 } else {
                     right--;

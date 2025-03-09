@@ -22,7 +22,8 @@ public class ThreeSum {
                     right--;
                 } else if (sum < 0) {
                     left++;
-                } else {
+                } else 
+                {
                     right--;
                 }
             }

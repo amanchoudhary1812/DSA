@@ -27,7 +27,6 @@ public class ThreeSum {
                 }
             }
         }
-        
         return result;
     }
 

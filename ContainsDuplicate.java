@@ -26,5 +26,4 @@ public class ContainsDuplicate {
         
         System.out.println("Contains Duplicate: " + containsDuplicate(nums));
     }
-    
 }

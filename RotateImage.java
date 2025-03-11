@@ -52,5 +52,4 @@ class RotateImage {
         
         scanner.close();
     }
-    
 }

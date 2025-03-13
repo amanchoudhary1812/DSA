@@ -16,10 +16,12 @@ public class Sqrt {
             if (square == x) 
             {
                 return (int) mid;
-            } else if (square < x) 
+            } 
+            else if (square < x) 
             {
                 left = mid + 1;
-            } else {
+            } 
+            else {
                 right = mid - 1;
             }
         }

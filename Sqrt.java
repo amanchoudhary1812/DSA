@@ -2,7 +2,8 @@ import java.util.Scanner;
 
 public class Sqrt {
     public static int mySqrt(int x) {
-        if (x < 2) {
+        if (x < 2) 
+        {
             return x;
         }
 

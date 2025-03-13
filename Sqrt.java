@@ -9,7 +9,8 @@ public class Sqrt {
         long left = 1;
         long right = x / 2;
 
-        while (left <= right) {
+        while (left <= right) 
+        {
             long mid = left + (right - left) / 2;
             long square = mid * mid;
 

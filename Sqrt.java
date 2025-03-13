@@ -13,7 +13,8 @@ public class Sqrt {
             long mid = left + (right - left) / 2;
             long square = mid * mid;
 
-            if (square == x) {
+            if (square == x) 
+            {
                 return (int) mid;
             } else if (square < x) {
                 left = mid + 1;
@@ -36,7 +37,7 @@ public class Sqrt {
         scanner.close();
 
         int result = mySqrt(x);
-        
+
         System.out.println("The integer square root of " + x + " is: " + result);
     }
 }

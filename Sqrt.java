@@ -30,8 +30,9 @@ public class Sqrt {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter a non-negative integer: ");
-        
+
         int x = scanner.nextInt();
+        
         scanner.close();
 
         int result = mySqrt(x);

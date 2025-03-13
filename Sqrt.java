@@ -32,10 +32,11 @@ public class Sqrt {
         System.out.print("Enter a non-negative integer: ");
 
         int x = scanner.nextInt();
-        
+
         scanner.close();
 
         int result = mySqrt(x);
+        
         System.out.println("The integer square root of " + x + " is: " + result);
     }
 }

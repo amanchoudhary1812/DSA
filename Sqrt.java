@@ -21,7 +21,8 @@ public class Sqrt {
             {
                 left = mid + 1;
             } 
-            else {
+            else 
+            {
                 right = mid - 1;
             }
         }

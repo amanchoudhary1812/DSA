@@ -21,6 +21,7 @@ public class MissingNumber {
             nums[i] = scanner.nextInt();
         }
         scanner.close();
+        
         System.out.println("Missing number: " + findMissingNumber(nums));
     }
 }

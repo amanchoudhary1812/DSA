@@ -1,7 +1,8 @@
 import java.util.Arrays;
 
 public class MoveZeroes {
-    public static void moveZeroes(int[] nums) {
+    public static void moveZeroes(int[] nums) 
+    {
         int i = 0;
         for (int num : nums) {
             if (num != 0) {

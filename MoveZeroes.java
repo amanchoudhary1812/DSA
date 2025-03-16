@@ -4,8 +4,10 @@ public class MoveZeroes {
     public static void moveZeroes(int[] nums) 
     {
         int i = 0;
-        for (int num : nums) {
-            if (num != 0) {
+        for (int num : nums) 
+        {
+            if (num != 0) 
+            {
                 nums[i++] = num;
             }
         }

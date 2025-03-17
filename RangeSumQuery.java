@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
-public class RangeSumQuery {
+public class RangeSumQuery 
+{
     private int[] prefix;
 
     public RangeSumQuery(int[] nums) 

@@ -3,7 +3,8 @@ import java.util.Scanner;
 public class RangeSumQuery {
     private int[] prefix;
 
-    public RangeSumQuery(int[] nums) {
+    public RangeSumQuery(int[] nums) 
+    {
         prefix = new int[nums.length + 1];
         for (int i = 0; i < nums.length; ++i) 
         {

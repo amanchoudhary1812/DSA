@@ -33,7 +33,8 @@ public class DuplicateNumber
         
         int[] nums = new int[n];
         System.out.println("Enter the elements:");
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) 
+        {
             nums[i] = scanner.nextInt();
         }
         

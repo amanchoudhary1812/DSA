@@ -8,7 +8,8 @@ public class DuplicateNumber
         int fast = nums[0];
         
         // Detect cycle
-        do {
+        do 
+        {
             slow = nums[slow];
             fast = nums[nums[fast]];
         } while (slow != fast);

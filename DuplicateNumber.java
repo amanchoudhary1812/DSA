@@ -2,7 +2,8 @@ import java.util.Scanner;
 
 public class DuplicateNumber 
 {
-    public static int findDuplicate(int[] nums) {
+    public static int findDuplicate(int[] nums) 
+    {
         int slow = nums[0];
         int fast = nums[0];
         

@@ -12,7 +12,7 @@ public class SearchInRotatedArray {
                 return mid;
             }
 
-            if (nums[left] <= nums[mid]) { // Left half is sorted
+            if (nums[left] <= nums[mid]) { 
                 if (nums[left] <= target && target < nums[mid]) {
                     right = mid - 1;
                 } else {

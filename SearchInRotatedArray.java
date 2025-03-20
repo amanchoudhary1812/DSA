@@ -18,7 +18,7 @@ public class SearchInRotatedArray {
                 } else {
                     left = mid + 1;
                 }
-            } else { // Right half is sorted
+            } else { 
                 if (nums[mid] < target && target <= nums[right]) {
                     left = mid + 1;
                 } else {

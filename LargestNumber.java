@@ -2,7 +2,8 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Scanner;
 
-public class LargestNumber {
+public class LargestNumber 
+{
     public static String largestNumber(int[] nums) {
         // Convert integers to strings
         String[] strNums = Arrays.stream(nums)

@@ -15,7 +15,8 @@ public class LargestNumber
         Arrays.sort(strNums, new Comparator<String>() 
         {
             @Override
-            public int compare(String a, String b) {
+            public int compare(String a, String b) 
+            {
                 String order1 = a + b;
                 String order2 = b + a;
                 return order2.compareTo(order1); // Descending order

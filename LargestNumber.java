@@ -31,7 +31,8 @@ public class LargestNumber
 
         // Build the largest number
         StringBuilder largestNumber = new StringBuilder();
-        for (String num : strNums) {
+        for (String num : strNums) 
+        {
             largestNumber.append(num);
         }
 

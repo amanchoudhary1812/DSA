@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class LargestNumber 
 {
-    public static String largestNumber(int[] nums) {
+    public static String largestNumber(int[] nums) 
+    {
         // Convert integers to strings
         String[] strNums = Arrays.stream(nums)
                                  .mapToObj(String::valueOf)

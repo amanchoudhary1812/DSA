@@ -12,7 +12,8 @@ public class LargestNumber
                                  .toArray(String[]::new);
 
         // Sort strings using custom comparator
-        Arrays.sort(strNums, new Comparator<String>() {
+        Arrays.sort(strNums, new Comparator<String>() 
+        {
             @Override
             public int compare(String a, String b) {
                 String order1 = a + b;

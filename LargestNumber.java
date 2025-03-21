@@ -24,7 +24,8 @@ public class LargestNumber
         });
 
         // If the largest number is "0", return "0"
-        if (strNums[0].equals("0")) {
+        if (strNums[0].equals("0")) 
+        {
             return "0";
         }
 

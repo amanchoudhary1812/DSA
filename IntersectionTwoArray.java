@@ -5,7 +5,8 @@ public class IntersectionTwoArray
     public static int[] intersection(int[] nums1, int[] nums2) 
     {
         Set<Integer> set1 = new HashSet<>();
-        for (int num : nums1) {
+        for (int num : nums1) 
+        {
             set1.add(num);
         }
 

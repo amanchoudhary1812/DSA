@@ -52,7 +52,8 @@ public class IntersectionTwoArrays2 {
         int n2 = scanner.nextInt();
         int[] nums2 = new int[n2];
         System.out.println("Enter elements of second array:");
-        for (int i = 0; i < n2; i++) {
+        for (int i = 0; i < n2; i++) 
+        {
             nums2[i] = scanner.nextInt();
         }
 

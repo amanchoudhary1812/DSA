@@ -2,12 +2,14 @@ import java.util.*;
 
 public class IntersectionTwoArrays2 {
     public static int[] intersect(int[] nums1, int[] nums2) {
-        if (nums1.length > nums2.length) {
+        if (nums1.length > nums2.length) 
+        {
             return intersect(nums2, nums1);
         }
 
         Map<Integer, Integer> countMap = new HashMap<>();
-        for (int num : nums1) {
+        for (int num : nums1) 
+        {
             countMap.put(num, countMap.getOrDefault(num, 0) + 1);
         }
 

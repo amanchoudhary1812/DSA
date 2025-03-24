@@ -34,7 +34,8 @@ public class IntersectionOfTwoLL {
         if (intersection != null) 
         {
             System.out.println("Intersection at node with value: " + intersection.val);
-        } else {
+        } else 
+        {
             System.out.println("No intersection.");
         }
     }

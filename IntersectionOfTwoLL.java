@@ -31,7 +31,8 @@ public class IntersectionOfTwoLL {
         headB.next = common;
         
         ListNode intersection = getIntersectionNode(headA, headB);
-        if (intersection != null) {
+        if (intersection != null) 
+        {
             System.out.println("Intersection at node with value: " + intersection.val);
         } else {
             System.out.println("No intersection.");

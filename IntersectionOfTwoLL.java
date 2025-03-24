@@ -15,7 +15,8 @@ public class IntersectionOfTwoLL
         ListNode a = headA;
         ListNode b = headB;
 
-        while (a != b) {
+        while (a != b) 
+        {
             a = (a != null) ? a.next : headB;
             b = (b != null) ? b.next : headA;
         }

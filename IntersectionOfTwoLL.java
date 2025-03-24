@@ -8,7 +8,8 @@ class ListNode {
 }
 
 public class IntersectionOfTwoLL {
-    public static ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+    public static ListNode getIntersectionNode(ListNode headA, ListNode headB) 
+    {
         ListNode a = headA;
         ListNode b = headB;
 

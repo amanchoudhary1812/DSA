@@ -16,7 +16,8 @@ public class NumbersDisappearedInArray {
         }
 
         // Collect the numbers corresponding to the positive indices
-        for (int i = 0; i < nums.length; i++) {
+        for (int i = 0; i < nums.length; i++) 
+        {
             if (nums[i] > 0) { // Positive value indicates missing number
                 missingNumbers.add(i + 1);
             }

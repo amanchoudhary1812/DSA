@@ -3,7 +3,8 @@ import java.util.List;
 import java.util.Scanner;
 
 public class NumbersDisappearedInArray {
-    public static List<Integer> findDisappearedNumbers(int[] nums) {
+    public static List<Integer> findDisappearedNumbers(int[] nums) 
+    {
         List<Integer> missingNumbers = new ArrayList<>();
 
         // Mark the indices corresponding to the numbers present

@@ -16,6 +16,7 @@ public class MaxConsecutiveOnes {
         return Math.max(maxCount, currentCount);
     }
 
+    
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the number of elements in the array: ");

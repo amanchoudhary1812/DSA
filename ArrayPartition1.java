@@ -2,9 +2,9 @@ import java.util.*;
 
 public class ArrayPartition1 {
     public static int arrayPairSum(int[] nums) {
-        Arrays.sort(nums); // Step 1: Sort the array
+        Arrays.sort(nums); 
         int sum = 0;
-        // Step 2: Sum elements at even indices
+        
         for (int i = 0; i < nums.length; i += 2) {
             sum += nums[i];
         }

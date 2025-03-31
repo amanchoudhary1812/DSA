@@ -30,6 +30,7 @@ public class RangeAddition2 {
         scanner.close();
         
         int result = maxCount(m, n, ops);
+        
         System.out.println("Maximum count of integers: " + result);
     }
 }

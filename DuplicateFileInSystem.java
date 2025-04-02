@@ -42,7 +42,7 @@ public class DuplicateFileInSystem {
         scanner.close();
 
         List<List<String>> result = findDuplicate(paths);
-        System.out.println("Duplicate files:");
+        System.out.println("Duplicate files :");
         for (List<String> group : result) {
             System.out.println(group);
         }

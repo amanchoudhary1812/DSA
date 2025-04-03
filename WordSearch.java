@@ -8,7 +8,7 @@ public class WordSearch {
         int rows = scanner.nextInt();
         System.out.print("Enter number of columns: ");
         int cols = scanner.nextInt();
-        scanner.nextLine(); // Consume newline
+        scanner.nextLine(); 
 
         char[][] board = new char[rows][cols];
         System.out.println("Enter the board row by row:");
@@ -46,14 +46,14 @@ public class WordSearch {
         }
 
         char temp = board[i][j];
-        board[i][j] = '*'; // Mark as visited
+        board[i][j] = '*'; 
 
         boolean found = dfs(board, word, i + 1, j, index + 1) ||
                         dfs(board, word, i - 1, j, index + 1) ||
                         dfs(board, word, i, j + 1, index + 1) ||
                         dfs(board, word, i, j - 1, index + 1);
 
-        board[i][j] = temp; // Revert to original state
+        board[i][j] = temp; 
         return found;
     }
 }

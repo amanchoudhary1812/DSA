@@ -13,7 +13,8 @@ public class HIndex {
         return 0;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter number of papers: ");
         int n = scanner.nextInt();

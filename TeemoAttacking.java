@@ -13,14 +13,12 @@ public class TeemoAttacking {
     }
 
     public static void main(String[] args) {
-        // Sample Input
+
         int[] timeSeries = {1, 4};
         int duration = 2;
 
-        // Function Call
         int totalPoisonedDuration = findPoisonedDuration(timeSeries, duration);
 
-        // Output
         System.out.println("Total Poisoned Duration: " + totalPoisonedDuration);
     }
 }

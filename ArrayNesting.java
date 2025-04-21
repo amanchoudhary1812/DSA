@@ -4,12 +4,12 @@ public class ArrayNesting {
     public static int arrayNesting(int[] nums) {
         int maxSize = 0;
         for (int i = 0; i < nums.length; i++) {
-            if (nums[i] == -1) continue; // Skip already visited elements
+            if (nums[i] == -1) continue; 
             int start = nums[i], count = 0;
             while (nums[start] != -1) {
                 int temp = start;
                 start = nums[start];
-                nums[temp] = -1; // Mark as visited
+                nums[temp] = -1; 
                 count++;
             }
             maxSize = Math.max(maxSize, count);

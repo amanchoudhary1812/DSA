@@ -14,7 +14,7 @@ public class RightTriangles {
                 }
 
         long total = 0;
-        // For each cell with a 1, calculate the number of right triangles
+
         for (int i = 0; i < m; ++i)
             for (int j = 0; j < n; ++j)
                 if (grid[i][j] == 1)

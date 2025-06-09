@@ -11,14 +11,12 @@ class TreeNode {
 
 public class SameTree {
 
-    // Function to check if two trees are the same
     public static boolean isSameTree(TreeNode p, TreeNode q) {
         if (p == null && q == null) return true;
         if (p == null || q == null || p.val != q.val) return false;
         return isSameTree(p.left, q.left) && isSameTree(p.right, q.right);
     }
 
-    // Helper method to build a tree from level order input (use -1 as null)
     public static TreeNode buildTree(Scanner sc) {
         String[] nodes = sc.nextLine().split(" ");
         if (nodes.length == 0 || nodes[0].equals("-1")) return null;

@@ -11,7 +11,7 @@ public class ShortestCompletingWord {
         // Input number of words
         System.out.print("Enter number of words: ");
         int n = scanner.nextInt();
-        scanner.nextLine(); // consume newline
+        scanner.nextLine();
 
         // Input words
         String[] words = new String[n];

@@ -20,10 +20,8 @@ public class RotateFunction {
     }
 
     public static void main(String[] args) {
-        // Sample input
         int[] nums = {4, 3, 2, 6};
 
-        // Function call and output
         int result = maxRotateFunction(nums);
         System.out.println("Maximum Rotate Function value: " + result);
     }

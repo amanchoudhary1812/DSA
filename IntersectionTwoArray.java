@@ -12,7 +12,8 @@ public class IntersectionTwoArray
 
         Set<Integer> intersection = new HashSet<>();
         for (int num : nums2) {
-            if (set1.contains(num)) {
+            if (set1.contains(num)) 
+            {
                 intersection.add(num);
             }
         }

@@ -15,7 +15,7 @@ public class KeyboardRow {
     }
 
     public static String[] findWords(String[] words) {
-        // Mapping each letter to its corresponding keyboard row
+
         int[] rows = new int[26];
         for (char c : "qwertyuiop".toCharArray()) rows[c - 'a'] = 1;
         for (char c : "asdfghjkl".toCharArray()) rows[c - 'a'] = 2;

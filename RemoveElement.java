@@ -15,25 +15,20 @@ public class RemoveElement {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Taking input for array size
         System.out.print("Enter the number of elements in the array: ");
         int n = scanner.nextInt();
         int[] nums = new int[n];
 
-        // Taking input for array elements
         System.out.println("Enter the elements of the array:");
         for (int i = 0; i < n; i++) {
             nums[i] = scanner.nextInt();
         }
 
-        // Taking input for the value to remove
         System.out.print("Enter the value to remove: ");
         int val = scanner.nextInt();
 
-        // Calling the removeElement function
         int newLength = removeElement(nums, val);
 
-        // Displaying the new array length and modified array
         System.out.println("New array length: " + newLength);
         System.out.print("Modified array: ");
         for (int i = 0; i < newLength; i++) {

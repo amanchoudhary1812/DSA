@@ -16,7 +16,6 @@ public class MostCommonWord {
         Solution solution = new Solution();
         String result = solution.mostCommonWord(paragraph, banned);
         
-        // Output the result
         System.out.println("The most common word is: " + result);
         
         scanner.close();

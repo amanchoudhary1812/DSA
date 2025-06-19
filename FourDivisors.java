@@ -29,12 +29,15 @@ public class FourDivisors {
         int count = 0;
         int sum = 0;
         for (int i = 1; i <= Math.sqrt(num); ++i) {
-            if (num % i == 0) {
+            if (num % i == 0) 
+            {
                 int j = num / i;
-                if (i == j) {
+                if (i == j) 
+                {
                     count++;
                     sum += i;
-                } else {
+                } else 
+                {
                     count += 2;
                     sum += i + j;
                 }

@@ -6,15 +6,12 @@ public class RelativeRanks {
         String[] result = new String[n];
         Integer[] indices = new Integer[n];
 
-        // Initialize the indices array
         for (int i = 0; i < n; i++) {
             indices[i] = i;
         }
 
-        // Sort indices based on corresponding scores in descending order
         Arrays.sort(indices, (a, b) -> Integer.compare(score[b], score[a]));
 
-        // Assign ranks based on sorted indices
         for (int i = 0; i < n; i++) {
             if (i == 0) {
                 result[indices[i]] = "Gold Medal";

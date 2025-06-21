@@ -5,7 +5,6 @@ public class AccountsMerge {
         Map<String, String> emailToName = new HashMap<>();
         Map<String, String> parent = new HashMap<>();
 
-        // Step 1: Map email to name and initialize parent
         for (List<String> account : accounts) {
             String name = account.get(0);
             for (int i = 1; i < account.size(); i++) {
@@ -15,7 +14,6 @@ public class AccountsMerge {
             }
         }
 
-        // Step 2: Union emails in same account
         for (List<String> account : accounts) {
             String firstEmail = account.get(1);
             for (int i = 2; i < account.size(); i++) {
@@ -23,14 +21,12 @@ public class AccountsMerge {
             }
         }
 
-        // Step 3: Group emails by their root parent
         Map<String, TreeSet<String>> unions = new HashMap<>();
         for (String email : parent.keySet()) {
             String root = find(parent, email);
             unions.computeIfAbsent(root, x -> new TreeSet<>()).add(email);
         }
 
-        // Step 4: Build result
         List<List<String>> result = new ArrayList<>();
         for (String root : unions.keySet()) {
             List<String> merged = new ArrayList<>();

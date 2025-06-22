@@ -28,7 +28,8 @@ public class FrogJump {
         int[] stones = new int[n];
 
         System.out.println("Enter stone positions: ");
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) 
+        {
             stones[i] = sc.nextInt();
         }
 

@@ -31,7 +31,6 @@ public class IntersectionTwoArrays2 {
             }
         }
 
-        // Convert list to array and return the result
         return intersection.stream().mapToInt(i -> i).toArray();
     }
 
@@ -47,7 +46,6 @@ public class IntersectionTwoArrays2 {
             nums1[i] = scanner.nextInt();
         }
 
-        // Take input for second array
         System.out.print("Enter size of second array: ");
         int n2 = scanner.nextInt();
         int[] nums2 = new int[n2];

@@ -27,7 +27,6 @@ public class BinaryTreePaths {
         scanner.close();
     }
 
-    // Helper method to build tree from input
     private static TreeNode buildTree(Scanner scanner) {
         if (!scanner.hasNext()) return null;
         String val = scanner.next();

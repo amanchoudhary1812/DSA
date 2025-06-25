@@ -21,7 +21,6 @@ public class SymmetricTree {
             && isMirror(t1.right, t2.left);
     }
 
-    // Helper function to build a binary tree from a level-order input array
     public static TreeNode buildTree(Integer[] values) {
         if (values.length == 0 || values[0] == null) return null;
 

@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class RotateString {
     public static boolean rotateString(String s, String goal) {
-        // Check if lengths are equal
         if (s.length() != goal.length()) {
             return false;
         }

@@ -30,7 +30,6 @@ public class ShuffleeAnArray {
         array[j] = temp;
     }
 
-    // Main method for testing
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

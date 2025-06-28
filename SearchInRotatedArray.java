@@ -45,7 +45,8 @@ public class SearchInRotatedArray {
         int result = search(nums, target);
         if (result != -1) {
             System.out.println("Target found at index: " + result);
-        } else {
+        } else 
+        {
             System.out.println("Target not found in the array.");
         }
     }

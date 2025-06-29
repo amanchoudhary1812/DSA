@@ -10,7 +10,8 @@ public class DecodeString {
         for (char ch : s.toCharArray()) {
             if (Character.isDigit(ch)) {
                 k = k * 10 + ch - '0';
-            } else if (ch == '[') {
+            } else if (ch == '[') 
+            {
                 countStack.push(k);
                 stringStack.push(currentString);
                 currentString = new StringBuilder();

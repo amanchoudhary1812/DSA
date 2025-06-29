@@ -35,8 +35,9 @@ public class DecodeString {
         DecodeString decoder = new DecodeString();
 
         String input = "3[a2[c]]";
-        
+
         String output = decoder.decodeString(input);
+        
         System.out.println("Decoded String: " + output);
     }
 }

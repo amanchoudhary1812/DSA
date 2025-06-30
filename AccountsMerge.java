@@ -60,12 +60,13 @@ public class AccountsMerge {
         accounts.add(Arrays.asList("John", "johnnybravo@mail.com"));
 
         accounts.add(Arrays.asList("John", "johnsmith@mail.com", "john_newyork@mail.com"));
-        
+
         accounts.add(Arrays.asList("Mary", "mary@mail.com"));
 
         List<List<String>> mergedAccounts = accountsMerge(accounts);
 
-        for (List<String> acc : mergedAccounts) {
+        for (List<String> acc : mergedAccounts) 
+        {
             System.out.println(acc);
         }
     }

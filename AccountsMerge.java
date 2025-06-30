@@ -48,7 +48,8 @@ public class AccountsMerge {
     private static void union(Map<String, String> parent, String a, String b) {
         String rootA = find(parent, a);
         String rootB = find(parent, b);
-        if (!rootA.equals(rootB)) {
+        if (!rootA.equals(rootB)) 
+        {
             parent.put(rootB, rootA);
         }
     }

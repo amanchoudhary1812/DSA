@@ -35,7 +35,8 @@ public class CoinChange {
         if (result == -1) 
         {
             System.out.println("It's not possible to make up the amount with the given coins.");
-        } else {
+        } else 
+        {
             System.out.println("Minimum number of coins required: " + result);
         }
 

@@ -32,7 +32,8 @@ public class CoinChange {
         int amount = scanner.nextInt();
 
         int result = coinChange(coins, amount);
-        if (result == -1) {
+        if (result == -1) 
+        {
             System.out.println("It's not possible to make up the amount with the given coins.");
         } else {
             System.out.println("Minimum number of coins required: " + result);

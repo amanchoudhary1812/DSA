@@ -8,7 +8,8 @@ public class CoinChange {
         dp[0] = 0;
 
         for (int coin : coins) {
-            for (int j = coin; j <= amount; j++) {
+            for (int j = coin; j <= amount; j++) 
+            {
                 dp[j] = Math.min(dp[j], dp[j - coin] + 1);
             }
         }
@@ -32,7 +33,7 @@ public class CoinChange {
         int amount = scanner.nextInt();
 
         int result = coinChange(coins, amount);
-        
+
         if (result == -1) 
         {
             System.out.println("It's not possible to make up the amount with the given coins.");

@@ -36,10 +36,11 @@ public class BagOfTokens {
         }
 
         System.out.print("Enter initial power: ");
-        
+
         int power = scanner.nextInt();
 
         int result = bagOfTokensScore(tokens, power);
+        
         System.out.println("Maximum Score: " + result);
     }
 }

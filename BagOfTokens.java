@@ -36,6 +36,7 @@ public class BagOfTokens {
         }
 
         System.out.print("Enter initial power: ");
+        
         int power = scanner.nextInt();
 
         int result = bagOfTokensScore(tokens, power);

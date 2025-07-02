@@ -7,7 +7,8 @@ public class BagOfTokens {
         int left = 0, right = tokens.length - 1;
 
         while (left <= right) {
-            if (power >= tokens[left]) {
+            if (power >= tokens[left]) 
+            {
                 power -= tokens[left++];
                 score++;
                 maxScore = Math.max(maxScore, score);

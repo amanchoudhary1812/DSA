@@ -15,14 +15,16 @@ public class DecodeString {
                 stringStack.push(currentString);
                 currentString = new StringBuilder();
                 k = 0;
-            } else if (ch == ']') {
+            } else if (ch == ']') 
+            {
                 StringBuilder decodedString = stringStack.pop();
                 int currentK = countStack.pop();
                 for (int i = 0; i < currentK; i++) {
                     decodedString.append(currentString);
                 }
                 currentString = decodedString;
-            } else {
+            } else 
+            {
                 currentString.append(ch);
             }
         }

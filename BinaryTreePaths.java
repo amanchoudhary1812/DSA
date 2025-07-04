@@ -46,7 +46,8 @@ public class BinaryTreePaths {
     }
 
     private static void dfs(TreeNode node, String path, List<String> paths) {
-        if (node.left == null && node.right == null) {
+        if (node.left == null && node.right == null) 
+        {
             paths.add(path + node.val);
         } else {
             if (node.left != null) {

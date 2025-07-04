@@ -13,7 +13,6 @@ public class BinaryTreePaths {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Example: input for tree: 1 2 null null 5 null null 3 null null
         System.out.println("Enter tree nodes in pre-order (use 'null' for no node):");
         TreeNode root = buildTree(scanner);
 

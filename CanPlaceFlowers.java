@@ -26,7 +26,8 @@ public class CanPlaceFlowers {
         return false;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the number of flowerbed slots: ");
         int size = scanner.nextInt();

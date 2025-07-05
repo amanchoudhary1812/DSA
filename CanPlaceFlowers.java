@@ -41,6 +41,7 @@ public class CanPlaceFlowers {
         int n = scanner.nextInt();
 
         boolean result = canPlaceFlowers(flowerbed, n);
+        
         System.out.println("Can plant flowers ? " + result);
     }
 }

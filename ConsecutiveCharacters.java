@@ -24,8 +24,9 @@ public class ConsecutiveCharacters {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter a string: ");
-        
+
         String input = scanner.nextLine();
+        
         int result = maxPower(input);
         System.out.println("The maximum power of the string is: " + result);
         scanner.close();

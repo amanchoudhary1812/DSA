@@ -51,6 +51,7 @@ public class FourSum {
         scanner.close();
         
         List<List<Integer>> result = fourSum(nums, target);
+        
         System.out.println("Quadruplets that sum up to the target:");
         System.out.println(result);
     }

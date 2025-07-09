@@ -34,6 +34,7 @@ public class FrogJump {
         }
 
         boolean result = canCross(stones);
+        
         System.out.println("Can the frog cross? " + result);
     }
 }

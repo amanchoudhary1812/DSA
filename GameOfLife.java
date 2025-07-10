@@ -50,7 +50,8 @@ public class GameOfLife {
     private static int countLiveNeighbors(int[][] board, int i, int j, int m, int n) 
     {
         int live = 0;
-        for (int x = Math.max(0, i - 1); x <= Math.min(i + 1, m - 1); x++) {
+        for (int x = Math.max(0, i - 1); x <= Math.min(i + 1, m - 1); x++) 
+        {
             for (int y = Math.max(0, j - 1); y <= Math.min(j + 1, n - 1); y++) {
                 if (x == i && y == j) continue;
                 live += board[x][y] & 1;

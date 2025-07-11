@@ -31,7 +31,8 @@ public class GoatLatin {
         return sb.toString();
     }
 
-    private static boolean isVowel(char c) {
+    private static boolean isVowel(char c) 
+    {
         return "aeiouAEIOU".indexOf(c) != -1;
     }
 }

@@ -21,12 +21,13 @@ public class HeightChecker {
 
         int[] heights = new int[n];
         System.out.println("Enter heights:");
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) 
+        {
             heights[i] = scanner.nextInt();
         }
 
         int result = heightChecker(heights);
-        
+
         System.out.println("Number of students in the wrong position: " + result);
     }
 }

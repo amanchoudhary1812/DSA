@@ -26,6 +26,7 @@ public class HeightChecker {
         }
 
         int result = heightChecker(heights);
+        
         System.out.println("Number of students in the wrong position: " + result);
     }
 }

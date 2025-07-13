@@ -26,8 +26,9 @@ public class HIndex {
         }
 
         int h = hIndex(citations);
-        
+
         System.out.println("H-Index is: " + h);
+        
         scanner.close();
     }
 }

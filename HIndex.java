@@ -21,14 +21,15 @@ public class HIndex {
         int[] citations = new int[n];
 
         System.out.println("Enter citation counts:");
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) 
+        {
             citations[i] = scanner.nextInt();
         }
 
         int h = hIndex(citations);
 
         System.out.println("H-Index is: " + h);
-        
+
         scanner.close();
     }
 }

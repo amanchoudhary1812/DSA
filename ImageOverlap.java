@@ -21,6 +21,7 @@ public class ImageOverlap {
                 img2[i][j] = sc.nextInt();
 
         Solution sol = new Solution();
+        
         int result = sol.largestOverlap(img1, img2);
 
         System.out.println("Maximum overlap: " + result);

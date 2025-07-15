@@ -47,6 +47,7 @@ public class IntersectionTwoArray
         }
 
         int[] result = intersection(nums1, nums2);
+        
         System.out.println("Intersection of the two arrays: " + Arrays.toString(result));
         
         scanner.close();

@@ -55,7 +55,7 @@ public class IntersectionTwoArrays2 {
             nums2[i] = scanner.nextInt();
         }
 
-        scanner.close(); // Close scanner to prevent resource leak
+        scanner.close(); 
 
         // Get intersection of arrays
         int[] result = intersect(nums1, nums2);

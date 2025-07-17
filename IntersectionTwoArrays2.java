@@ -37,7 +37,6 @@ public class IntersectionTwoArrays2 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Take input for first array
         System.out.print("Enter size of first array: ");
         int n1 = scanner.nextInt();
         int[] nums1 = new int[n1];

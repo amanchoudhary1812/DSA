@@ -33,6 +33,7 @@ public class IslandPerimeter {
         }
 
         scanner.close();
+        
         System.out.println("Island Perimeter: " + islandPerimeter(grid));
     }
 }

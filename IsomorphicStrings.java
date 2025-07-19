@@ -37,6 +37,7 @@ public class IsomorphicStrings {
         String t = scanner.nextLine();
 
         boolean result = isIsomorphic(s, t);
+        
         System.out.println("Are the strings isomorphic? " + result);
 
         scanner.close();

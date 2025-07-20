@@ -24,6 +24,7 @@ public class IsSubsequence {
         String t = scanner.nextLine();
 
         boolean result = isSubsequence(s, t);
+        
         System.out.println("Is '" + s + "' a subsequence of '" + t + "'? " + result);
     }
 } 

@@ -28,7 +28,8 @@ public class KeyboardRow {
             int row = rows[lower.charAt(0) - 'a'];
             boolean valid = true;
             for (char c : lower.toCharArray()) {
-                if (rows[c - 'a'] != row) {
+                if (rows[c - 'a'] != row) 
+                {
                     valid = false;
                     break;
                 }

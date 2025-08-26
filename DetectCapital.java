@@ -10,8 +10,8 @@ public class DetectCapital {
         }
 
         return uppercaseCount == 0 ||
-               uppercaseCount == length ||
-               (uppercaseCount == 1 && Character.isUpperCase(word.charAt(0)));
+            uppercaseCount == length ||
+            (uppercaseCount == 1 && Character.isUpperCase(word.charAt(0)));
     }
 
     public static void main(String[] args) {

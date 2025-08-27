@@ -28,7 +28,6 @@ public class GameOfLife {
     }
 
     public static void gameOfLife(int[][] board) {
-        
         int m = board.length, n = board[0].length;
 
         for (int i = 0; i < m; i++) {

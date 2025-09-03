@@ -21,6 +21,7 @@ public class IsomorphicStrings {
                 
                 if (mapTS.containsKey(c2))
                     return false;
+                    
                 mapST.put(c1, c2);
                 mapTS.put(c2, c1);
             }

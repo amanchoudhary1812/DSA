@@ -16,6 +16,7 @@ public class DetectCapital {
 
     public static void main(String[] args) {
         
+        // Example inputs
         String[] testWords = { "USA", "leetcode", "Google", "FlaG" };
 
         for (String word : testWords) {

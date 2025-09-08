@@ -18,7 +18,6 @@ public class KeyboardRow {
 
         int[] rows = new int[26];
         for (char c : "qwertyuiop".toCharArray()) rows[c - 'a'] = 1;
-        
         for (char c : "asdfghjkl".toCharArray()) rows[c - 'a'] = 2;
         for (char c : "zxcvbnm".toCharArray()) rows[c - 'a'] = 3;
 

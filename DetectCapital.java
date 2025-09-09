@@ -3,7 +3,8 @@ public class DetectCapital {
         int uppercaseCount = 0;
         int length = word.length();
 
-        for (char c : word.toCharArray()) {
+        for (char c : word.toCharArray()) 
+        {
             if (Character.isUpperCase(c)) {
                 uppercaseCount++;
             }

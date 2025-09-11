@@ -22,7 +22,6 @@ public class DetectCapital {
         for (String word : testWords) {
             System.out.println("Input: " + word);
             System.out.println("Output: " + detectCapitalUse(word));
-            
             System.out.println();
         }
     }

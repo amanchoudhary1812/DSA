@@ -14,7 +14,8 @@ class TreeNode {
 
 public class SortedArrayToBST {
     
-    public static TreeNode sortedArrayToBST(int[] nums) {
+    public static TreeNode sortedArrayToBST(int[] nums) 
+    {
         return buildBST(nums, 0, nums.length - 1);
     }
 

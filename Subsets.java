@@ -13,7 +13,6 @@ public class Subsets {
         scanner.close();
 
         List<List<Integer>> subsets = subsets(nums);
-        
         System.out.println("All subsets:");
         for (List<Integer> subset : subsets) {
             System.out.println(subset);

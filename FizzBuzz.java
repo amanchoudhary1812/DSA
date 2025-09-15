@@ -12,8 +12,7 @@ public class FizzBuzz {
             if (i % 3 == 0) sb.append("Fizz");
             if (i % 5 == 0) sb.append("Buzz");
 
-            if (sb.length() == 0) 
-            {
+            if (sb.length() == 0) {
                 sb.append(i);
             }
 

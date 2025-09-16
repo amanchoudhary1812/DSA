@@ -8,8 +8,7 @@ public class DIStringMatch {
         int[] result = new int[n + 1];
 
         for (int i = 0; i < n; i++) {
-            if (s.charAt(i) == 'I') 
-            {
+            if (s.charAt(i) == 'I') {
                 result[i] = low++;
             } else {
                 result[i] = high--;

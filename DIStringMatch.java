@@ -16,7 +16,7 @@ public class DIStringMatch {
         }
 
         
-        result[n] = low; 
+        result[n] = low; // low == high
         return result;
 
     }

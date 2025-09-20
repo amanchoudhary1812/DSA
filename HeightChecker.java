@@ -21,6 +21,7 @@ public class HeightChecker {
 
         int[] heights = new int[n];
         System.out.println("Enter heights:");
+        
         for (int i = 0; i < n; i++) 
         {
             heights[i] = scanner.nextInt();

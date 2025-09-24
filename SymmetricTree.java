@@ -31,7 +31,8 @@ public class SymmetricTree {
         int i = 1;
         while (!queue.isEmpty() && i < values.length) {
             TreeNode current = queue.poll();
-            if (values[i] != null) {
+            if (values[i] != null) 
+            {
                 current.left = new TreeNode(values[i]);
                 queue.offer(current.left);
             }

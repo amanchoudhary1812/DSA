@@ -37,7 +37,8 @@ public class SymmetricTree {
                 queue.offer(current.left);
             }
             i++;
-            if (i < values.length && values[i] != null) {
+            if (i < values.length && values[i] != null) 
+            {
                 current.right = new TreeNode(values[i]);
                 queue.offer(current.right);
             }

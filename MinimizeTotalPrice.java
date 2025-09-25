@@ -44,7 +44,8 @@ public class MinimizeTotalPrice {
     }
 
     // DP: [0] = not halved, [1] = halved
-    private int[] dfsDP(int u, int parent) {
+    private int[] dfsDP(int u, int parent) 
+    {
         int notHalved = freq[u] * price[u];
         int halved = freq[u] * (price[u] / 2);
 
@@ -67,7 +68,7 @@ public class MinimizeTotalPrice {
         int[][] trips = {{0,3},{2,1},{2,3}};
 
         int result = solver.minimumTotalPrice(n, edges, price, trips);
-        
+
         System.out.println("Minimum Total Price of Trips = " + result);
     }
 }

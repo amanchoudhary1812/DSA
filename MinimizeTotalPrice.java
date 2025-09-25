@@ -67,6 +67,7 @@ public class MinimizeTotalPrice {
         int[][] trips = {{0,3},{2,1},{2,3}};
 
         int result = solver.minimumTotalPrice(n, edges, price, trips);
+        
         System.out.println("Minimum Total Price of Trips = " + result);
     }
 }

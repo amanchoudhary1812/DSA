@@ -57,7 +57,6 @@ public class MinimizeTotalPrice {
         return new int[]{notHalved, halved};
     }
 
-    // ---------- MAIN for Testing ----------
     public static void main(String[] args) {
         MinimizeTotalPrice solver = new MinimizeTotalPrice();
 

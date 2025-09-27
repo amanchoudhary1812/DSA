@@ -40,7 +40,8 @@ class NestedInteger {
 
     // @return the nested list.
     public List<NestedInteger> getList() {
-        if (list == null) {
+        if (list == null) 
+        {
             return new ArrayList<>();
         }
         return list;

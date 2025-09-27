@@ -1,7 +1,5 @@
 import java.util.*;
 
-// A simple NestedInteger implementation for testing locally.
-// (LeetCode provides its own implementation, so this is only for offline runs.)
 class NestedInteger {
     private Integer value;
     private List<NestedInteger> list;

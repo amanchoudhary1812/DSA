@@ -122,6 +122,7 @@ public class MiniParser {
         String input = sc.nextLine();
 
         Solution sol = new Solution();
+        
         NestedInteger result = sol.deserialize(input);
 
         System.out.println("Parsed structure: " + result);

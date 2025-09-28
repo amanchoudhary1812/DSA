@@ -8,8 +8,7 @@ public class CheckArrayZero {
         int[] diff = new int[n + 1];
         int curr = 0;
 
-        for (int i = 0; i < n; i++) 
-        {
+        for (int i = 0; i < n; i++) {
             curr += diff[i];
             nums[i] += curr;
 

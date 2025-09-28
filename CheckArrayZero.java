@@ -14,7 +14,8 @@ public class CheckArrayZero {
 
             if (nums[i] < 0) return false; // cannot go negative
 
-            if (nums[i] > 0) {
+            if (nums[i] > 0) 
+            {
                 if (i + k > n) return false; // operation out of bounds
                 curr -= nums[i];
                 diff[i + k] += nums[i];

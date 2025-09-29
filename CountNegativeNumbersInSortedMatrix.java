@@ -2,7 +2,8 @@ import java.util.*;
 
 public class CountNegativeNumbersInSortedMatrix {
     // Function to count negative numbers in sorted matrix
-    public static int countNegatives(int[][] grid) {
+    public static int countNegatives(int[][] grid) 
+    {
         int m = grid.length;
         int n = grid[0].length;
         int count = 0;

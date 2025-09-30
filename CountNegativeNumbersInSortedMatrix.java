@@ -11,7 +11,8 @@ public class CountNegativeNumbersInSortedMatrix {
         int col = 0;
         
         while (row >= 0 && col < n) {
-            if (grid[row][col] < 0) {
+            if (grid[row][col] < 0) 
+            {
                 // if grid[row][col] is negative,
                 // then everything to the right in this row is also negative
                 count += (n - col);

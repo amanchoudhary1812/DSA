@@ -10,7 +10,7 @@ public class JumpGame {
             reachable = Math.max(reachable, i + nums[i]);
             if (reachable >= nums.length - 1) 
             {
-                return true; // Already can reach the last index
+                return true; 
             }
         }
         return true;

@@ -4,7 +4,6 @@ public class MatrixSimilarityAfterCyclicShifts {
 public static void main(String[] args) {
 Scanner sc = new Scanner(System.in);
 
-```
     // Input rows and cols
     System.out.print("Enter number of rows: ");
     int m = sc.nextInt();

@@ -52,6 +52,5 @@ public static boolean areSimilar(int[][] mat, int k) {
     }
     return true;
 }
-```
 
 }

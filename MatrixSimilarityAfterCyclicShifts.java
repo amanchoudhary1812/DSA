@@ -13,7 +13,8 @@ Scanner sc = new Scanner(System.in);
     int[][] mat = new int[m][n];
     System.out.println("Enter the matrix elements row by row:");
     for (int i = 0; i < m; i++) {
-        for (int j = 0; j < n; j++) {
+        for (int j = 0; j < n; j++) 
+        {
             mat[i][j] = sc.nextInt();
         }
     }

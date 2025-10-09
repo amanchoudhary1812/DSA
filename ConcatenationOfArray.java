@@ -21,7 +21,6 @@ public class ConcatenationOfArray {
         
         // Taking input size of array
         System.out.print("Enter the number of elements in the array: ");
-        
         int n = sc.nextInt();
         
         int[] nums = new int[n];

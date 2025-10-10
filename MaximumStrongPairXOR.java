@@ -75,6 +75,7 @@ public class MaximumStrongPairXOR {
         }
 
         int result = maximumStrongPairXor(nums);
+        
         System.out.println("Maximum Strong Pair XOR: " + result);
         sc.close();
     }

@@ -55,7 +55,8 @@ public class MaximumStrongPairXOR {
     }
 
     // ----- Main function to find Maximum Strong Pair XOR -----
-    public static int maximumStrongPairXor(int[] nums) {
+    public static int maximumStrongPairXor(int[] nums) 
+    {
         for (int x : nums) insert(x);
         int res = 0;
         for (int x : nums) res = Math.max(res, query(x));
@@ -75,7 +76,7 @@ public class MaximumStrongPairXOR {
         }
 
         int result = maximumStrongPairXor(nums);
-        
+
         System.out.println("Maximum Strong Pair XOR: " + result);
         sc.close();
     }

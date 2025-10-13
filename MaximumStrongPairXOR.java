@@ -5,8 +5,9 @@ public class MaximumStrongPairXOR {
     // ----- Trie Node -----
     static class TrieNode {
         TrieNode[] next = new TrieNode[2];
-        int mn = Integer.MAX_VALUE;
         
+        int mn = Integer.MAX_VALUE;
+
         int mx = Integer.MIN_VALUE;
     }
 

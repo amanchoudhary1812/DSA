@@ -51,7 +51,8 @@ class NestedInteger {
     public String toString() {
         if (isInteger()) {
             return value.toString();
-        } else {
+        } else 
+        {
             return list.toString();
         }
     }

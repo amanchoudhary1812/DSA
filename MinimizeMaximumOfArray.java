@@ -7,7 +7,8 @@ public class MinimizeMaximumOfArray {
         long prefixSum = 0;
         int result = 0;
 
-        for (int i = 0; i < nums.length; i++) {
+        for (int i = 0; i < nums.length; i++) 
+        {
             prefixSum += nums[i];
             int avg = (int) Math.ceil((double) prefixSum / (i + 1));
             result = Math.max(result, avg);

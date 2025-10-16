@@ -11,6 +11,7 @@ public class MinimizeMaximumOfArray {
         {
             prefixSum += nums[i];
             int avg = (int) Math.ceil((double) prefixSum / (i + 1));
+            
             result = Math.max(result, avg);
         }
 

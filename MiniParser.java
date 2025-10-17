@@ -49,7 +49,8 @@ class NestedInteger {
 
     @Override
     public String toString() {
-        if (isInteger()) {
+        if (isInteger()) 
+        {
             return value.toString();
         } else 
         {

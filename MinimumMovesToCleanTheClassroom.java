@@ -112,6 +112,7 @@ public class MinimumMovesToCleanTheClassroom {
 
                 int newEnergy = remEnergy - 1;
                 if (newEnergy < 0) continue;
+                
                 if (classroom[newRow].charAt(newCol) == 'R') newEnergy = energy;
 
                 if (!visited[newRow][newCol][newEnergy]) {

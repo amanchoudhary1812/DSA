@@ -112,10 +112,11 @@ public class MinimumMovesToCleanTheClassroom {
 
                 int newEnergy = remEnergy - 1;
                 if (newEnergy < 0) continue;
-                
+
                 if (classroom[newRow].charAt(newCol) == 'R') newEnergy = energy;
 
-                if (!visited[newRow][newCol][newEnergy]) {
+                if (!visited[newRow][newCol][newEnergy]) 
+                {
                     visited[newRow][newCol][newEnergy] = true;
                     queue.offer(new int[]{newRow, newCol, newEnergy, dist + 1});
                 }

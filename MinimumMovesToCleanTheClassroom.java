@@ -118,6 +118,7 @@ public class MinimumMovesToCleanTheClassroom {
                 if (!visited[newRow][newCol][newEnergy]) 
                 {
                     visited[newRow][newCol][newEnergy] = true;
+                    
                     queue.offer(new int[]{newRow, newCol, newEnergy, dist + 1});
                 }
             }

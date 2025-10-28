@@ -11,7 +11,7 @@ public class MinimizeMaximumOfArray {
         {
             prefixSum += nums[i];
             int avg = (int) Math.ceil((double) prefixSum / (i + 1));
-            
+
             result = Math.max(result, avg);
         }
 
@@ -26,7 +26,8 @@ public class MinimizeMaximumOfArray {
 
         int[] nums = new int[n];
         System.out.println("Enter array elements:");
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) 
+        {
             nums[i] = sc.nextInt();
         }
 

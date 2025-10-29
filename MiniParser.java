@@ -84,7 +84,8 @@ class Solution {
                 }
                 stack.push(ni);
                 current = ni;
-            } else if (c == ']') {
+            } else if (c == ']') 
+            {
                 if (hasNum) {
                     int value = negative ? -num : num;
                     current.add(new NestedInteger(value));

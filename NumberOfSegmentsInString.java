@@ -18,6 +18,7 @@ public class NumberOfSegmentsInString {
         String input = scanner.nextLine();
         int segments = countSegments(input);
         System.out.println("Number of segments: " + segments);
+        
         scanner.close();
     }
 }

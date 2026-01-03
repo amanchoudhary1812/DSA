@@ -20,7 +20,8 @@ public class AddStrings {
         return sb.reverse().toString();
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter first number (as string): ");
         String num1 = sc.nextLine();

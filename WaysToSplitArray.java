@@ -28,7 +28,7 @@ public class WaysToSplitArray {
             j = Math.max(j, i + 1);
 
             while (j < n - 1 &&
-                   prefix[j] - leftSum < leftSum) {
+                prefix[j] - leftSum < leftSum) {
                 j++;
             }
 
@@ -36,8 +36,8 @@ public class WaysToSplitArray {
             k = Math.max(k, j);
 
             while (k < n - 1 &&
-                   prefix[n - 1] - prefix[k] >=
-                   prefix[k] - leftSum) {
+                prefix[n - 1] - prefix[k] >=
+                prefix[k] - leftSum) {
                 k++;
             }
 

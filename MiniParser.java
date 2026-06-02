@@ -40,8 +40,7 @@ class NestedInteger {
 
     // @return the nested list.
     public List<NestedInteger> getList() {
-        if (list == null) 
-        {
+        if (list == null) {
             return new ArrayList<>();
         }
         return list;
@@ -49,66 +48,83 @@ class NestedInteger {
 
     @Override
     public String toString() {
-        if (isInteger()) 
-        {
+        if (isInteger()) {
             return value.toString();
-        } else 
-        {
-            return list.toString();
         }
+        return list.toString();
     }
 }
 
-class Solution {
+class MiniParserSolution {
+
     public NestedInteger deserialize(String s) {
+
         if (s == null || s.length() == 0) {
             return new NestedInteger();
         }
+
         if (s.charAt(0) != '[') {
             return new NestedInteger(Integer.parseInt(s));
         }
 
         Stack<NestedInteger> stack = new Stack<>();
         NestedInteger current = null;
+
         int num = 0;
         boolean negative = false;
         boolean hasNum = false;
 
         for (int i = 0; i < s.length(); i++) {
+
             char c = s.charAt(i);
 
             if (c == '[') {
+
                 NestedInteger ni = new NestedInteger();
+
                 if (current != null) {
                     current.add(ni);
                 }
+
                 stack.push(ni);
                 current = ni;
-            } else if (c == ']') 
-            {
-                if (hasNum) 
-                {
-                    int value = negative ? -num : num;
-                    current.add(new NestedInteger(value));
-                    hasNum = false;
-                    num = 0;
-                    negative = false;
-                }
-                stack.pop();
-                if (!stack.isEmpty()) {
-                    current = stack.peek();
-                }
-            } else if (c == ',') {
+
+            } else if (c == ']') {
+
                 if (hasNum) {
                     int value = negative ? -num : num;
                     current.add(new NestedInteger(value));
-                    hasNum = false;
+
                     num = 0;
                     negative = false;
+                    hasNum = false;
                 }
+
+                NestedInteger completed = stack.pop();
+
+                if (stack.isEmpty()) {
+                    return completed;
+                }
+
+                current = stack.peek();
+
+            } else if (c == ',') {
+
+                if (hasNum) {
+                    int value = negative ? -num : num;
+                    current.add(new NestedInteger(value));
+
+                    num = 0;
+                    negative = false;
+                    hasNum = false;
+                }
+
             } else if (c == '-') {
+
                 negative = true;
+
             } else if (Character.isDigit(c)) {
+
                 hasNum = true;
                 num = num * 10 + (c - '0');
             }
@@ -119,16 +135,20 @@ class Solution {
 }
 
 public class MiniParser {
-    public static void main(String[] args) 
-    {
+
+    public static void main(String[] args) {
+
         Scanner sc = new Scanner(System.in);
+
         System.out.print("Enter nested integer string: ");
         String input = sc.nextLine();
 
-        Solution sol = new Solution();
-        
+        MiniParserSolution sol = new MiniParserSolution();
+
         NestedInteger result = sol.deserialize(input);
 
         System.out.println("Parsed structure: " + result);
+
+        sc.close();
     }
 }

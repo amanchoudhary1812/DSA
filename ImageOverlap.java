@@ -52,4 +52,8 @@ class Solution {
 
         return maxOverlap;
     }
+
+    NestedInteger deserialize(String input) {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
 }

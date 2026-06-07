@@ -73,7 +73,6 @@ public class MergeTwo2DArrays {
             nums1[i][1] = sc.nextInt(); // value
         }
 
-        // Input second array size
         int n2 = sc.nextInt();
         int[][] nums2 = new int[n2][2];
 

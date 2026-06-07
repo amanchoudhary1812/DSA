@@ -64,7 +64,6 @@ public class MergeTwo2DArrays {
 
         Scanner sc = new Scanner(System.in);
 
-        // Input first array size
         int n1 = sc.nextInt();
         int[][] nums1 = new int[n1][2];
 

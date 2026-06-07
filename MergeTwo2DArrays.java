@@ -83,7 +83,6 @@ public class MergeTwo2DArrays {
 
         int[][] result = mergeArrays(nums1, nums2);
 
-        // Print merged array
         for (int[] row : result) {
             System.out.println(row[0] + " " + row[1]);
         }

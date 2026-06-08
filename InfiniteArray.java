@@ -1,8 +1,8 @@
 public class InfiniteArray {
     public static void main (String[] args) {
     
-        int[] arr = {1, 12, 16, 17, 18 , 21, 32, 63, 77, 89, 99, 100, 120, 140};
-        int target = 140;
+        int[] arr = {1, 12, 16, 17, 18 , 21, 32, 63, 77, 89, 99, 100, 120, 140, 160};
+        int target = 160;
         System.out.println(ans(arr, target));
     }
 

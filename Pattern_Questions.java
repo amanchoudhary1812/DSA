@@ -1,5 +1,3 @@
-
-
 public class Pattern_Questions {
     public static void main (String[] args) {
         pattern1(4);

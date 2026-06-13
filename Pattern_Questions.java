@@ -5,8 +5,9 @@ public class Pattern_Questions {
         // pattern3(5);
         // pattern4(5);
         // pattern5(5);
-        pattern6(5);
-    }
+        // pattern6(5);
+        pattern7(5);
+}
 
     static void pattern1 (int n) {
         for (int row = 1; row <= n ; row++) {
@@ -74,6 +75,25 @@ public class Pattern_Questions {
             System.out.println();
         }
         System.out.println();
+    }
+
+    static void pattern7 (int n) {
+        for (int row = 1; row <= n; row++) {
+            
+            for (int space = 0; space < n- row; space++) {
+                System.out.print(" ");
+            }
+
+            for (int column = row; column >= 1; column--) {
+                System.out.print(column);
+            }
+
+            for (int column = 2; column <= row; column++) {
+                System.out.print(column);
+            }
+
+            System.out.println();
+        }
     }
 }
 

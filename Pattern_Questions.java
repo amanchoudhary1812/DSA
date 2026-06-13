@@ -81,15 +81,15 @@ public class Pattern_Questions {
         for (int row = 1; row <= n; row++) {
             
             for (int space = 0; space < n- row; space++) {
-                System.out.print(" ");
+                System.out.print("  ");
             }
 
             for (int column = row; column >= 1; column--) {
-                System.out.print(column);
+                System.out.print(column + " ");
             }
 
             for (int column = 2; column <= row; column++) {
-                System.out.print(column);
+                System.out.print(column + " ");
             }
 
             System.out.println();

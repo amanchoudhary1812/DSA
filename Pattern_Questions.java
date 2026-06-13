@@ -4,7 +4,8 @@ public class Pattern_Questions {
         // pattern2(5);
         // pattern3(5);
         // pattern4(5);
-        pattern5(5);
+        // pattern5(5);
+        pattern6(5);
     }
 
     static void pattern1 (int n) {
@@ -61,6 +62,12 @@ public class Pattern_Questions {
     static void pattern6 (int n) {
         for (int row = 0; row <= 2*n; row++) {
             int totalColumnsInRow = row > n ? 2*n - row : row;
+
+            int noOfSpaces = n - totalColumnsInRow;
+            for (int i = 0; i <= noOfSpaces; i++) {
+                System.out.print(" ");
+            }
+
             for (int column = 0; column < totalColumnsInRow; column++) {
                 System.out.print("* ");
             }

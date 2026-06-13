@@ -55,6 +55,18 @@ public class Pattern_Questions {
             }
             System.out.println();
         }
+        System.out.println();
+    }
+
+    static void pattern6 (int n) {
+        for (int row = 0; row <= 2*n; row++) {
+            int totalColumnsInRow = row > n ? 2*n - row : row;
+            for (int column = 0; column < totalColumnsInRow; column++) {
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+        System.out.println();
     }
 }
 

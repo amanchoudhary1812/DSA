@@ -5,7 +5,7 @@ public class Pattern_Questions {
         // pattern3(5);
         // pattern4(5);
         // pattern5(5);
-        // pattern6(5);
+         pattern6(5);
         pattern7(5);
         pattern8(5);
 }

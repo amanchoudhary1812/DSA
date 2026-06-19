@@ -95,6 +95,7 @@ public class Pattern_Questions {
 
             System.out.println();
         }
+        System.out.println();
     }
 
     static void pattern8 (int n) {

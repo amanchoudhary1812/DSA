@@ -16,8 +16,7 @@ public class ArrayOfDoubledPairs {
             nums[i] = arr[i];
         }
 
-        Arrays.sort(nums, (a, b) ->
-                Integer.compare(Math.abs(a), Math.abs(b)));
+        Arrays.sort(nums, (a, b) -> Integer.compare(Math.abs(a), Math.abs(b)));
 
         for (int num : nums) {
 
@@ -32,7 +31,7 @@ public class ArrayOfDoubledPairs {
             }
 
             freq.put(num, freq.get(num) - 1);
-            
+
             freq.put(doubled, freq.get(doubled) - 1);
         }
 

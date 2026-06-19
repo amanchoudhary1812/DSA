@@ -32,6 +32,7 @@ public class ArrayOfDoubledPairs {
             }
 
             freq.put(num, freq.get(num) - 1);
+            
             freq.put(doubled, freq.get(doubled) - 1);
         }
 

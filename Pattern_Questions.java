@@ -1,13 +1,14 @@
 public class Pattern_Questions {
     public static void main (String[] args) {
-        pattern1(4);
-        pattern2(5);
-        pattern3(5);
-        pattern4(5);
-        pattern5(5);
-        pattern6(5);
-        pattern7(5);
-        pattern8(5);
+        // pattern1(4);
+        // pattern2(5);
+        // pattern3(5);
+        // pattern4(5);
+        // pattern5(5);
+        // pattern6(5);
+        // pattern7(5);
+        // pattern8(5);
+        pattern9(3);
 }
 
     static void pattern1 (int n) {
@@ -115,6 +116,20 @@ public class Pattern_Questions {
                 System.out.print(column + " ");
             }
 
+            System.out.println();
+        }
+    }
+
+    static void pattern9 (int n) {
+        int size = 2*n - 1;
+        int min = 0;
+
+        for (int i = 0; i < size; i++) {
+            for (int j = 0; j < size; j++) {
+                
+                min = Math.min(Math.min(i, j), Math.min(size - 1 -i, size - 1 - j));
+                System.out.print(min+1);
+            }
             System.out.println();
         }
     }

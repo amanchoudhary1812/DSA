@@ -1,13 +1,13 @@
 public class Pattern_Questions {
     public static void main (String[] args) {
-        pattern1(4);
-        pattern2(5);
-        pattern3(5);
-        pattern4(5);
-        pattern5(5);
-        pattern6(5);
-        pattern7(5);
-        pattern8(5);
+        // pattern1(4);
+        // pattern2(5);
+        // pattern3(5);
+        // pattern4(5);
+        // pattern5(5);
+        // pattern6(5);
+        // pattern7(5);
+        // pattern8(5);
         pattern9(3);
 }
 

@@ -13,6 +13,6 @@ public class SecondLargest {
                 SL = arr[i];
             }
         }
-        System.out.println(SL);
+        System.out.println("Second largest number in the array is : " + SL);
     }
 }

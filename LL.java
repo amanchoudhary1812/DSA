@@ -80,17 +80,19 @@ public class LL {
 
         LL list = new LL();
 
-        // list.insertFirst(3);
-        // list.insertFirst(2);
-        // list.insertFirst(8);
-        // list.insertFirst(9);
+        list.insertFirst(3);
+        list.insertFirst(2);
+        list.insertFirst(8);
+        list.insertFirst(9);
 
-        // list.display();
+        list.display();
 
         list.insertLast(3);
         list.insertLast(2);
         list.insertLast(8);
         list.insertLast(9);
+
+        list.display();
 
         list.insertRec(88, 2);
 

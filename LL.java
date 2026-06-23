@@ -29,7 +29,24 @@ public class LL {
         size++;
     }
 
-    
+    // Insertion at last
+    public void insertLast(int val) {
+
+    Node node = new Node(val);
+
+    if (head == null) {
+        head = node;
+        return;
+    }
+
+    Node temp = head;
+
+    while (temp.next != null) {
+        temp = temp.next;
+    }
+
+    temp.next = node;
+    }
 
     // Recursive Insert
     public void insertRec(int val, int index) {
@@ -63,12 +80,17 @@ public class LL {
 
         LL list = new LL();
 
-        list.insertFirst(3);
-        list.insertFirst(2);
-        list.insertFirst(8);
-        list.insertFirst(9);
+        // list.insertFirst(3);
+        // list.insertFirst(2);
+        // list.insertFirst(8);
+        // list.insertFirst(9);
 
         // list.display();
+
+        list.insertLast(3);
+        list.insertLast(2);
+        list.insertLast(8);
+        list.insertLast(9);
 
         list.insertRec(88, 2);
 

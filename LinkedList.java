@@ -1,9 +1,9 @@
-public class LL {
+public class LinkedList {
 
     private Node head;
     private int size;
 
-    public LL() {
+    public LinkedList() {
         this.size = 0;
     }
 
@@ -78,14 +78,14 @@ public class LL {
 
     public static void main(String[] args) {
 
-        LL list = new LL();
+        LinkedList list = new LinkedList();
 
-        list.insertFirst(3);
-        list.insertFirst(2);
-        list.insertFirst(8);
-        list.insertFirst(9);
+        // list.insertFirst(3);
+        // list.insertFirst(2);
+        // list.insertFirst(8);
+        // list.insertFirst(9);
 
-        list.display();
+        // list.display();
 
         list.insertLast(3);
         list.insertLast(2);

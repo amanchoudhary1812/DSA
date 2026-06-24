@@ -11,25 +11,25 @@ class ListNode {
 
 public class SortLinkedList {
 
-    public static ListNode sortList(ListNode head) {
+    // public static ListNode sortList(ListNode head) {
 
-        if (head == null || head.next == null) {
-            return head;
-        }
+    //     if (head == null || head.next == null) {
+    //         return head;
+    //     }
 
-        // Find middle
-        ListNode mid = getMid(head);
+    //     // Find middle
+    //     ListNode mid = getMid(head);
 
-        ListNode rightHead = mid.next;
-        mid.next = null;
+    //     ListNode rightHead = mid.next;
+    //     mid.next = null;
 
-        // Sort left and right halves
-        ListNode left = sortList(head);
-        ListNode right = sortList(rightHead);
+    //     // Sort left and right halves
+    //     ListNode left = sortList(head);
+    //     ListNode right = sortList(rightHead);
 
-        // Merge sorted halves
-        return merge(left, right);
-    }
+    //     // Merge sorted halves
+    //     return merge(left, right);
+    // }
 
     private static ListNode getMid(ListNode head) {
 

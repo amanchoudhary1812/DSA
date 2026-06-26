@@ -33,14 +33,14 @@ public class PracticeLL {
         temp.next = newNode;
     }
 
-    // // Insert at Beginning
-    // public static void insertFirst(int data) {
+    // Insert at Beginning
+    public static void insertFirst(int data) {
 
-    //     Node newNode = new Node(data);
+        Node newNode = new Node(data);
 
-    //     newNode.next = head;
-    //     head = newNode;
-    // }
+        newNode.next = head;
+        head = newNode;
+    }
 
     // // Delete First Node
     // public static void deleteFirst() {

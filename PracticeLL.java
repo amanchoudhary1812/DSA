@@ -75,22 +75,22 @@ public class PracticeLL {
         secondLast.next = null;
     }
 
-    // // Search Element
-    // public static boolean search(int key) {
+    // Search Element
+    public static boolean search(int key) {
 
-    //     Node temp = head;
+        Node temp = head;
 
-    //     while (temp != null) {
+        while (temp != null) {
 
-    //         if (temp.data == key) {
-    //             return true;
-    //         }
+            if (temp.data == key) {
+                return true;
+            }
 
-    //         temp = temp.next;
-    //     }
+            temp = temp.next;
+        }
 
-    //     return false;
-    // }
+        return false;
+    }
 
     // // Length of Linked List
     // public static int length() {
@@ -128,29 +128,29 @@ public class PracticeLL {
     //     head = prev;
     // }
 
-    // // Display Linked List
-    // public static void display() {
+    // Display Linked List
+    public static void display() {
 
-    //     if (head == null) {
-    //         System.out.println("List is Empty");
-    //         return;
-    //     }
+        if (head == null) {
+            System.out.println("List is Empty");
+            return;
+        }
 
-    //     Node temp = head;
+        Node temp = head;
 
-    //     while (temp != null) {
+        while (temp != null) {
 
-    //         System.out.print(temp.data);
+            System.out.print(temp.data);
 
-    //         if (temp.next != null) {
-    //             System.out.print(" -> ");
-    //         }
+            if (temp.next != null) {
+                System.out.print(" -> ");
+            }
 
-    //         temp = temp.next;
-    //     }
+            temp = temp.next;
+        }
 
-    //     System.out.println();
-    // }
+        System.out.println();
+    }
 
     public static void main(String[] args) {
 

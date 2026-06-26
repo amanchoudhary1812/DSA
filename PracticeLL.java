@@ -108,25 +108,25 @@ public class PracticeLL {
         return count;
     }
 
-    // // Reverse Linked List
-    // public static void reverse() {
+    // Reverse Linked List
+    public static void reverse() {
 
-    //     Node prev = null;
-    //     Node current = head;
+        Node prev = null;
+        Node current = head;
 
-    //     while (current != null) {
+        while (current != null) {
 
-    //         Node next = current.next;
+            Node next = current.next;
 
-    //         current.next = prev;
+            current.next = prev;
 
-    //         prev = current;
+            prev = current;
 
-    //         current = next;
-    //     }
+            current = next;
+        }
 
-    //     head = prev;
-    // }
+        head = prev;
+    }
 
     // Display Linked List
     public static void display() {

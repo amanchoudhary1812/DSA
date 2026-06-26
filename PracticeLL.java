@@ -92,21 +92,21 @@ public class PracticeLL {
         return false;
     }
 
-    // // Length of Linked List
-    // public static int length() {
+    // Length of Linked List
+    public static int length() {
 
-    //     int count = 0;
+        int count = 0;
 
-    //     Node temp = head;
+        Node temp = head;
 
-    //     while (temp != null) {
+        while (temp != null) {
 
-    //         count++;
-    //         temp = temp.next;
-    //     }
+            count++;
+            temp = temp.next;
+        }
 
-    //     return count;
-    // }
+        return count;
+    }
 
     // // Reverse Linked List
     // public static void reverse() {

@@ -53,27 +53,27 @@ public class PracticeLL {
         head = head.next;
     }
 
-    // // Delete Last Node
-    // public static void deleteLast() {
+    // Delete Last Node
+    public static void deleteLast() {
 
-    //     if (head == null) {
-    //         System.out.println("List is Empty");
-    //         return;
-    //     }
+        if (head == null) {
+            System.out.println("List is Empty");
+            return;
+        }
 
-    //     if (head.next == null) {
-    //         head = null;
-    //         return;
-    //     }
+        if (head.next == null) {
+            head = null;
+            return;
+        }
 
-    //     Node secondLast = head;
+        Node secondLast = head;
 
-    //     while (secondLast.next.next != null) {
-    //         secondLast = secondLast.next;
-    //     }
+        while (secondLast.next.next != null) {
+            secondLast = secondLast.next;
+        }
 
-    //     secondLast.next = null;
-    // }
+        secondLast.next = null;
+    }
 
     // // Search Element
     // public static boolean search(int key) {

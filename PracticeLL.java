@@ -42,16 +42,16 @@ public class PracticeLL {
         head = newNode;
     }
 
-    // // Delete First Node
-    // public static void deleteFirst() {
+    // Delete First Node
+    public static void deleteFirst() {
 
-    //     if (head == null) {
-    //         System.out.println("List is Empty");
-    //         return;
-    //     }
+        if (head == null) {
+            System.out.println("List is Empty");
+            return;
+        }
 
-    //     head = head.next;
-    // }
+        head = head.next;
+    }
 
     // // Delete Last Node
     // public static void deleteLast() {

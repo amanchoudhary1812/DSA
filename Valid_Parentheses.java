@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class ValidParentheses {
+public class Valid_Parentheses {
 
     public static boolean isValid(String s) {
 

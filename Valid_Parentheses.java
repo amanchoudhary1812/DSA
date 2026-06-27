@@ -48,6 +48,7 @@ public class Valid_Parentheses {
     }
 }
 
+// Leetcode problem 20 Solution
 class Solution {
     public boolean isValid(String s) {
         Stack<Character> stack = new Stack<>();

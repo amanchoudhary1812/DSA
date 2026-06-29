@@ -6,7 +6,7 @@ public class PopulatingNextRightPointersInEachNode {
             return root;
         }
         
-        Node leftMost = root;
+        // Node leftMost = root;
 
         while (leftMost.left != null) {
             Node current = leftMost;

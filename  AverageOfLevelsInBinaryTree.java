@@ -3,15 +3,15 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 
-// class TreeNode {
-//     int val;
-//     TreeNode left;
-//     TreeNode right;
+class TreeNode {
+    int val;
+    TreeNode left;
+    TreeNode right;
 
-//     TreeNode(int val) {
-//         this.val = val;
-//     }
-// }
+    TreeNode(int val) {
+        this.val = val;
+    }
+}
 
 public class AverageOfLevelsInBinaryTree {
 
